@@ -286,7 +286,7 @@ with col7:
     facet_variable = st.selectbox(
         "**Choose Variable for Subplot:**",
         facet_variables,
-        index=non_numeric_columns.index("Family") + 1,
+        index=non_numeric_columns.index("Family") + 10,
     )
 
 click_selection = alt.selection_point(encodings=["color"])
